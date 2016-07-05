@@ -16,7 +16,7 @@
         <servlet-class>com.google.api.server.spi.SystemServiceServlet</servlet-class>
         <init-param>
             <param-name>services</param-name>
-            <param-value>com.example.helloworld.TestAPI</param-value>
+            <param-value>com.example.test.Test1,com.example.test.Test2,com.example.test.Test3,com.example.test.Test4</param-value>
         </init-param>
     </servlet>
     <servlet-mapping>
