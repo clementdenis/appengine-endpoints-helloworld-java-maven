@@ -1,6 +1,6 @@
 {
  "kind": "discovery#restDescription",
- "etag": "\"zRMgE0l9nVDW4S28VYYcYQF9UW4/c4Rm1D8OhYchq0mrTyAhgkUSAXw\"",
+ "etag": "\"zRMgE0l9nVDW4S28VYYcYQF9UW4/cktLpWEGbhKqrdnp8oZzTfQnXDY\"",
  "discoveryVersion": "v1",
  "id": "testApi:v1",
  "name": "testApi",
@@ -112,7 +112,7 @@
     "update": {
      "id": "testApi.testResource.update",
      "path": "testresource",
-     "httpMethod": "PUT",
+     "httpMethod": "PATCH",
      "request": {
       "$ref": "TestResource",
       "parameterName": "resource"

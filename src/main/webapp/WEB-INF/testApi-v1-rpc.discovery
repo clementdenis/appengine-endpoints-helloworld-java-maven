@@ -1,6 +1,6 @@
 {
  "kind": "discovery#rpcDescription",
- "etag": "\"zRMgE0l9nVDW4S28VYYcYQF9UW4/c4Rm1D8OhYchq0mrTyAhgkUSAXw\"",
+ "etag": "\"zRMgE0l9nVDW4S28VYYcYQF9UW4/cktLpWEGbhKqrdnp8oZzTfQnXDY\"",
  "discoveryVersion": "v1",
  "id": "testApi:v1",
  "name": "testApi",
@@ -107,6 +107,7 @@
   },
   "testApi.testResource.update": {
    "id": "testApi.testResource.update",
+   "supportsPatch": true,
    "parameters": {
     "resource": {
      "$ref": "TestResource"

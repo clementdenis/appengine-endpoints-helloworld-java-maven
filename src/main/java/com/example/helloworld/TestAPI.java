@@ -1,6 +1,7 @@
 package com.example.helloworld;
 
 import com.google.api.server.spi.config.Api;
+import com.google.api.server.spi.config.ApiMethod;
 import com.google.api.server.spi.config.ApiNamespace;
 
 /**
@@ -34,6 +35,7 @@ public class TestAPI {
 		return new TestResource("Hello world!");
 	}
 	
+	@ApiMethod(httpMethod = "PATCH")
 	public TestResource update(TestResource resource) {
 		return resource;
 	}
